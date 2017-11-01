@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinovaArm64", "KinovaArm64\KinovaArm64.vcxproj", "{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JacoArmDriver", "JacoArmDriver\JacoArmDriver.vcxproj", "{47487A73-6276-4174-98D5-61DE0F5B5A27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE} = {5CB120F9-8D90-489D-91AD-9AB91E3B97CE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|VisualGDB = Release|VisualGDB
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Debug|x64.ActiveCfg = Debug|Win32
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Debug|x86.Build.0 = Debug|Win32
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Release|x64.ActiveCfg = Release|Win32
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Release|x86.ActiveCfg = Release|Win32
+		{5CB120F9-8D90-489D-91AD-9AB91E3B97CE}.Release|x86.Build.0 = Release|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Debug|x64.ActiveCfg = Debug|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Debug|x86.ActiveCfg = Debug|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Debug|x86.Build.0 = Debug|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Release|VisualGDB.ActiveCfg = Release|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Release|x64.ActiveCfg = Release|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Release|x86.ActiveCfg = Release|Win32
+		{47487A73-6276-4174-98D5-61DE0F5B5A27}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D9FA471-585C-4B6F-93CF-44F8FCC80E9D}
+	EndGlobalSection
+EndGlobal
